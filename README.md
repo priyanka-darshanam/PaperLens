@@ -20,8 +20,7 @@
    
 3. Install the necessary dependencies:
    ```bash
-   pip install -r requirements.txt
-   
+   pip install -r requirements.txt   
 ## Usage
 1. Clone the repository:
    ````bash
