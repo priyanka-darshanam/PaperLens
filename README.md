@@ -41,7 +41,7 @@
   
 5. Run the main script:
    ```bash
-   server run main.py
+   streamlit run main.py
 
 ## Contributing
 - Feel free to contribute by submitting a pull request.
