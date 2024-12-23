@@ -22,7 +22,6 @@
    ```bash
    pip install -r requirements.txt
    
-
 ## Usage
 1. Clone the repository:
    ````bash
@@ -44,8 +43,6 @@
 5. Run the main script:
    ```bash
    server run main.py
-   
-
 
 ## Contributing
 - Feel free to contribute by submitting a pull request.
