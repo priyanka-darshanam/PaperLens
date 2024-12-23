@@ -2,10 +2,6 @@
 
 **PaperLens** An AI-powered research assistant that processes academic papers by leveraging OpenAI’s LLM, embeddings, and a vector database. The system allows users to input up to three research paper URLs and then generates accurate, context-aware answers to user queries. It enhances research exploration by providing dynamic insights and detailed responses directly extracted from the papers, ensuring precise and meaningful results tailored to the user's questions.
 
-## Output Image
-
-![Output Image](paperlens.png)
-
 ## Features
 - Provides accurate, context-aware answers based on paper content.
 - Retrieves precise information using embeddings and vector databases.
@@ -46,6 +42,10 @@
 5. Run the main script:
    ```bash
    streamlit run main.py
+
+## Output Image
+
+![Output Image](paperlens.png)
 
 ## Contributing
 - Feel free to contribute by submitting a pull request.
