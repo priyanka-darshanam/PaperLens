@@ -6,9 +6,9 @@
 - Provides accurate, context-aware answers based on paper content.
 - Retrieves precise information using embeddings and vector databases.
 - Generates tailored responses instead of static summaries.
-- Offers a simple and user-friendly input system.
-- Designed to scale for larger datasets or additional papers.
-
+- Simple and user-friendly interface.
+- Scalable to larger datasets or more papers.
+  
 ## Installation
 1. Clone the repository:
    ```bash
@@ -21,27 +21,27 @@
 3. Install the necessary dependencies:
    ```bash
    pip install -r requirements.txt   
-## Usage
-1. Clone the repository:
-   ````bash
-   git clone https://github.com/priyanka-darshanam/PaperLens.git
    
-2. Navigate to the project directory:
-   ```bash
-   cd PaperLens
-   
-3. Set up environment variables:
+4. Set up environment variables:
    Create a \`.env\` file in the project directory and add the required variables. For example:
    ```plaintext
    OPENAI_API_KEY=your_openai_api_key_here
-   
-4. Install the necessary dependencies:
-   ```bash
-   pip install -r requirements.txt
   
 5. Run the main script:
    ```bash
    streamlit run main.py
+
+## Docker Usage
+1. **Build the Docker image**:
+   ```bash
+   docker build -t paperlens:1.0 .
+
+2. **Run the Docker container:**;
+ ```bash
+   docker run -d -p 4000:4000 -e OPENAI_API_KEY=your_openai_api_key_here paperlens:1.0
+```
+
+3. **Access the application: Visit http://localhost:4000 in your web browser.**
 
 ## Output Image
 
