@@ -37,9 +37,9 @@
    docker build -t paperlens:1.0 .
 
 2. **Run the Docker container:**;
- ```bash
+   ```bash
    docker run -d -p 4000:4000 -e OPENAI_API_KEY=your_openai_api_key_here paperlens:1.0
-```
+   ```
 
 3. **Access the application: Visit http://localhost:4000 in your web browser.**
 
