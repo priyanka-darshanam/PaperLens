@@ -11,41 +11,41 @@
 
 ## Installation
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/priyanka-darshanam/PaperLens.git
-   \`\`\`
+   
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd PaperLens
-   \`\`\`
+   
 3. Install the necessary dependencies:
-   \`\`\`bash
-   pip install -r requirements.txt
-   \`\`\`
-
+   ```bash
+   pip install -r requirements.txt   
 ## Usage
 1. Clone the repository:
-   \`\`\`bash
+   ````bash
    git clone https://github.com/priyanka-darshanam/PaperLens.git
-   \`\`\`
+   
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd PaperLens
-   \`\`\`
+   
 3. Set up environment variables:
    Create a \`.env\` file in the project directory and add the required variables. For example:
-   \`\`\`plaintext
+   ```plaintext
    OPENAI_API_KEY=your_openai_api_key_here
-   \`\`\`
+   
 4. Install the necessary dependencies:
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+  
 5. Run the main script:
-   \`\`\`bash
-   python main.py
-   \`\`\`
+   ```bash
+   streamlit run main.py
 
+## Output Image
+
+![Output Image](paperlens.png)
 
 ## Contributing
 - Feel free to contribute by submitting a pull request.
