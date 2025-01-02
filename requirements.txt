@@ -1,5 +1,5 @@
 langchain
-langchain_community  # Add if missing
+langchain_community 
 python-dotenv
 streamlit
 unstructured
